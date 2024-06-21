@@ -8,7 +8,8 @@ This article details implementing a centralized documentation website created vi
 
 ## Online article
 Details about this project can be read in my blog's article here: 
-[Article]([https://www.linkedin.com/pulse/sql-server-replication-alerts-health-check-using-azure-eugen-frunza-6srec/?trackingId=yvv5zVVdSsClwRosnmvtPg%3D%3D)](https://www.ideliversoft.com/post/how-to-write-build-and-deploy-professional-documentation-using-markdown)
+
+[Article](https://www.ideliversoft.com/post/how-to-write-build-and-deploy-professional-documentation-using-markdown)
 
 ## Context
 I have done this work in 2022. The main technologies used were: **Ruby**, **Jekyll**, and **Azure CI/CD**.
