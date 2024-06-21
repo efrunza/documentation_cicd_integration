@@ -4,7 +4,7 @@
 
 This article details implementing a centralized documentation website created via the CI/CD integration.
 
-![Components communication's diagram](./Images/documentationintegration1.webp)
+![Components communication's diagram](.images/documentationintegration1.webp)
 
 ## Online article
 Details about this project can be read in my blog's article here: 
