@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="{{ site.locale }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/overrides.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title> {{ page.title }} </title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">        
+        <a href="https://dev.azure.com/bowvalleycollege/BVC-ITS/_git/integration-documentation" class="button"><small>View project in the repository</small>Azure DevOps</a>
+      </div>
+      <div class="logo col-md-6">
+        <span class="logo col-md-2">
+          <a href="/"><img class="logo" src="/images/BVC_logo_300x165_snipe2.svg"></a>
+        </span>
+       
+        <span class="header-home-link">
+          {{ site.name }}                     
+        </span>
+       <!--
+        <h1><a class="header-home-link" href="{{ site.baseurl }}"></a></h1>
+       --> 
+      </div>
+      
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+
+        <section id="main-content">
+          {{ content }}
+        </section>
+
+        <aside id="sidebar">
+          <p><strong>Pages</strong></p>
+          <ul>
+            <li><a href="{{ site.baseurl }}/about/">About</a></li>
+          </ul>
+
+          <p><strong>Categories</strong></p>
+          <ul>
+            <li><a href="/firstCategory/">First Menu Item</a></li>
+            <li><a href="/secondCategory/">Second Menu Item</a></li>
+            <li><a href="/thirdCategory/">Third Menu Item</a></li>
+          </ul>        
+
+        </aside>
+      
+      </div>
+    </div>
+  </body>
+</html>

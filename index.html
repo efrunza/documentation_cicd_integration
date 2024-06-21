@@ -1,0 +1,20 @@
+---
+layout: default
+title: Bow Valley College Documentation| Development 
+---
+
+<div id="home">
+  <h2>Main documentation page</h2>
+  <hr>
+  <div class="code">
+    <p>There are a few links below to markdown pages added in the <strong>_posts</strong> folder. </p>
+  </div>
+<hr>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+          <span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
