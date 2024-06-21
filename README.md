@@ -1,19 +1,14 @@
-# JekyllBlog
+# How to write, build, and deploy professional documentation using markdown 
 
-This is sample solution for my blog post series about how to build and publish Jekyll static blog to Azure static website using Azure DevOps build and release pipelines: [Static blog with Jekyll, Azure and Azure DevOps](https://gunnarpeipman.com/azure/jekyll-azure-devops-static-blog/)
+## Project's description
 
-## Live demo
+This article details implementing a centralized documentation website created via the CI/CD integration.
 
-Live demo is available here: https://jekyll.gunnarpeipman.com/
+![Components communication's diagram](./Images/documentationintegration1.webp)
 
-## Publishing process
+## Online article
+Details about this project can be read in my blog's article here: 
+[Article]([https://www.linkedin.com/pulse/sql-server-replication-alerts-health-check-using-azure-eugen-frunza-6srec/?trackingId=yvv5zVVdSsClwRosnmvtPg%3D%3D)](https://www.ideliversoft.com/post/how-to-write-build-and-deploy-professional-documentation-using-markdown)
 
-Main idea of this experiment is to keep blogging lightweight. On laptop, desktop or tablet we need just git client and our favorite markup editor to write blog posts. We can blog wherever we want and thanks to branches in Git we can also have draft writings.
-
-![Publishing process](jekyll-azure-process.png "Publishing process")
-
-1. **Write** blog post using your machine and tools you like
-2. **Commit** blog changes to Git when done
-3. **Build** static blog on Azure DevOps using Jekyll
-4. **Publish** new state of blog using Azure DevOps release pipeline
-5. **Host** your site on Azure static website
+## Context
+I have done this work in 2022. The main technologies used were: **Ruby**, **Jekyll**, and **Azure CI/CD**.
