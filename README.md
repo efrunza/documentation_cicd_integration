@@ -11,7 +11,7 @@ Details about this project can be read in my blog's article here:
 
 [Article](https://www.ideliversoft.com/post/how-to-write-build-and-deploy-professional-documentation-using-markdown)
 
-[Read High Level D](./Design_Documents/ITS%20Central%20Documentation%20HLD.docx) - from the "./Design_Documents" folder
+[Read High Level Design](./Design_Documents/ITS%20Central%20Documentation%20HLD.docx) - from the "./Design_Documents" folder
 
 [Read Low Level Design](./Design_Documents/ITS%20Central%20Documentation%20LLD.docx) - from the "./Design_Documents" folder
 
