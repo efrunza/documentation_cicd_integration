@@ -11,5 +11,9 @@ Details about this project can be read in my blog's article here:
 
 [Article](https://www.ideliversoft.com/post/how-to-write-build-and-deploy-professional-documentation-using-markdown)
 
+[Read HLD](./Design_Documents/ITS Central Documentation HLD.docx)
+
+[Read LLD](./Design_Documents/ITS Central Documentation LLD.docx)
+
 ## Context
 I have done this work in 2022. The main technologies used were: **Ruby**, **Jekyll**, and **Azure CI/CD**.
